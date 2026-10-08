@@ -1,0 +1,40 @@
+220 VeriMailLab SMTP Service Ready
+
+ehlo client.verimail.test
+
+250-VeriMailLab
+250-SIZE 10485760
+250 8BITMIME
+
+mail from:<alice@verimail.test> size=491
+
+250 2.1.0 Sender OK
+
+rcpt to:<bob@verimail.test>
+
+250 2.1.5 Recipient OK
+
+data
+
+354 End data with <CR><LF>.<CR><LF>
+
+From: alice@verimail.test
+To: bob@verimail.test
+Subject: VeriMailLab Security Test
+Date: Wed, 07 Oct 2026 13:40:35 -0400
+Message-ID: <179139483508.1289854.9354462440880240933@verimail.test>
+X-Test-ID: 78759de3-15ae-4b8d-b743-666aae5bc939
+X-Security-Project: Email Delivery Security Analysis
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+s.
+.
+
+250 2.0.0 Message accepted for delivery
+
+QUIT
+
+221 2.0.0 Bye

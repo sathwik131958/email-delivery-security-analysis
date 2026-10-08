@@ -1,0 +1,13 @@
+From: alice@verimail.test
+To: bob@verimail.test
+Subject: VeriMailLab Security Test
+Date: Thu, 08 Oct 2026 13:47:27 -0400
+Message-ID: <179148164790.90344.5663624720046272209@verimail.test>
+X-Test-ID: 516a2d32-1c25-4ff5-b8fa-65b7ba91b29b
+X-Security-Project: Email Delivery Security Analysis
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+s.

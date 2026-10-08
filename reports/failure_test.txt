@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/nani/email-delivery-security-analysis/scripts/send_test_email.py", line 41, in <module>
+    with smtplib.SMTP(
+         ~~~~~~~~~~~~^
+        SMTP_SERVER,
+        ^^^^^^^^^^^^
+        SMTP_PORT,
+        ^^^^^^^^^^
+        timeout=10
+        ^^^^^^^^^^
+    ) as smtp:
+    ^
+  File "/usr/lib/python3.13/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.13/socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 111] Connection refused

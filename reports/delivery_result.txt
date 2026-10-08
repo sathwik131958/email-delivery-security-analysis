@@ -1,0 +1,4 @@
+Status: SUCCESS
+SMTP Server: 127.0.0.1:2525
+Delivery Time: 0.0067 seconds
+Message-ID: <179148164790.90344.5663624720046272209@verimail.test>

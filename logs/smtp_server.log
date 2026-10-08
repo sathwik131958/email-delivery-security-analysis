@@ -1,0 +1,115 @@
+2026-10-07T11:20:06 SMTP LAB SERVER listening on 127.0.0.1:2525
+2026-10-07T11:22:01 CONNECT ('127.0.0.1', 36900)
+2026-10-07T11:22:01 CMD ehlo client.verimail.test
+2026-10-07T11:22:01 CMD mail from:<alice@verimail.test> size=491
+2026-10-07T11:22:01 CMD rcpt to:<bob@verimail.test>
+2026-10-07T11:22:01 CMD data
+2026-10-07T11:22:01 CMD From: alice@verimail.test
+2026-10-07T11:22:01 CMD To: bob@verimail.test
+2026-10-07T11:22:01 CMD Subject: VeriMailLab Security Test
+2026-10-07T11:22:01 CMD Date: Wed, 07 Oct 2026 11:22:01 -0400
+2026-10-07T11:22:01 CMD Message-ID: <179138652158.630304.16715465083204404348@verimail.test>
+2026-10-07T11:22:01 CMD X-Test-ID: 96101a7c-354b-4282-9613-648def5492fc
+2026-10-07T11:22:01 CMD X-Security-Project: Email Delivery Security Analysis
+2026-10-07T11:22:01 CMD Content-Type: text/plain; charset="utf-8"
+2026-10-07T11:22:01 CMD Content-Transfer-Encoding: quoted-printable
+2026-10-07T11:22:01 CMD MIME-Version: 1.0
+2026-10-07T11:22:01 CMD 
+2026-10-07T11:22:01 CMD This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+2026-10-07T11:22:01 CMD s.
+2026-10-07T11:22:01 CMD .
+2026-10-07T11:22:01 DELIVERED data/mailbox/email_20261007_112201_587639.eml sender=<alice@verimail.test> size=491 recipients=['<bob@verimail.test>']
+2026-10-07T11:22:01 CMD QUIT
+2026-10-07T11:22:01 DISCONNECT ('127.0.0.1', 36900)
+2026-10-07T11:22:25 CONNECT ('127.0.0.1', 51228)
+2026-10-07T11:22:25 CMD ehlo client.verimail.test
+2026-10-07T11:22:25 CMD mail from:<alice@verimail.test> size=489
+2026-10-07T11:22:25 CMD rcpt to:<bob@verimail.test>
+2026-10-07T11:22:25 CMD data
+2026-10-07T11:22:25 CMD From: alice@verimail.test
+2026-10-07T11:22:25 CMD To: bob@verimail.test
+2026-10-07T11:22:25 CMD Subject: VeriMailLab Security Test
+2026-10-07T11:22:25 CMD Date: Wed, 07 Oct 2026 11:22:25 -0400
+2026-10-07T11:22:25 CMD Message-ID: <179138654560.632406.997233760496910145@verimail.test>
+2026-10-07T11:22:25 CMD X-Test-ID: bd48858d-04cc-4ab0-8101-db7ff0dfe193
+2026-10-07T11:22:25 CMD X-Security-Project: Email Delivery Security Analysis
+2026-10-07T11:22:25 CMD Content-Type: text/plain; charset="utf-8"
+2026-10-07T11:22:25 CMD Content-Transfer-Encoding: quoted-printable
+2026-10-07T11:22:25 CMD MIME-Version: 1.0
+2026-10-07T11:22:25 CMD 
+2026-10-07T11:22:25 CMD This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+2026-10-07T11:22:25 CMD s.
+2026-10-07T11:22:25 CMD .
+2026-10-07T11:22:25 DELIVERED data/mailbox/email_20261007_112225_603801.eml sender=<alice@verimail.test> size=489 recipients=['<bob@verimail.test>']
+2026-10-07T11:22:25 CMD QUIT
+2026-10-07T11:22:25 DISCONNECT ('127.0.0.1', 51228)
+2026-10-07T11:24:13 CONNECT ('127.0.0.1', 35450)
+2026-10-07T11:24:13 CMD ehlo client.verimail.test
+2026-10-07T11:24:13 CMD mail from:<alice@verimail.test> size=491
+2026-10-07T11:24:13 CMD rcpt to:<bob@verimail.test>
+2026-10-07T11:24:13 CMD data
+2026-10-07T11:24:13 CMD From: alice@verimail.test
+2026-10-07T11:24:13 CMD To: bob@verimail.test
+2026-10-07T11:24:13 CMD Subject: VeriMailLab Security Test
+2026-10-07T11:24:13 CMD Date: Wed, 07 Oct 2026 11:24:13 -0400
+2026-10-07T11:24:13 CMD Message-ID: <179138665304.641842.10889869499273083908@verimail.test>
+2026-10-07T11:24:13 CMD X-Test-ID: 40473240-b6b5-498f-8911-b5a1db3deb7f
+2026-10-07T11:24:13 CMD X-Security-Project: Email Delivery Security Analysis
+2026-10-07T11:24:13 CMD Content-Type: text/plain; charset="utf-8"
+2026-10-07T11:24:13 CMD Content-Transfer-Encoding: quoted-printable
+2026-10-07T11:24:13 CMD MIME-Version: 1.0
+2026-10-07T11:24:13 CMD 
+2026-10-07T11:24:13 CMD This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+2026-10-07T11:24:13 CMD s.
+2026-10-07T11:24:13 CMD .
+2026-10-07T11:24:13 DELIVERED data/mailbox/email_20261007_112413_043964.eml sender=<alice@verimail.test> size=491 recipients=['<bob@verimail.test>']
+2026-10-07T11:24:13 CMD QUIT
+2026-10-07T11:24:13 DISCONNECT ('127.0.0.1', 35450)
+2026-10-07T13:33:23 SMTP LAB SERVER listening on 127.0.0.1:2525
+2026-10-07T13:40:35 CONNECT ('127.0.0.1', 60916)
+2026-10-07T13:40:35 CMD ehlo client.verimail.test
+2026-10-07T13:40:35 CMD mail from:<alice@verimail.test> size=491
+2026-10-07T13:40:35 CMD rcpt to:<bob@verimail.test>
+2026-10-07T13:40:35 CMD data
+2026-10-07T13:40:35 CMD From: alice@verimail.test
+2026-10-07T13:40:35 CMD To: bob@verimail.test
+2026-10-07T13:40:35 CMD Subject: VeriMailLab Security Test
+2026-10-07T13:40:35 CMD Date: Wed, 07 Oct 2026 13:40:35 -0400
+2026-10-07T13:40:35 CMD Message-ID: <179139483508.1289854.9354462440880240933@verimail.test>
+2026-10-07T13:40:35 CMD X-Test-ID: 78759de3-15ae-4b8d-b743-666aae5bc939
+2026-10-07T13:40:35 CMD X-Security-Project: Email Delivery Security Analysis
+2026-10-07T13:40:35 CMD Content-Type: text/plain; charset="utf-8"
+2026-10-07T13:40:35 CMD Content-Transfer-Encoding: quoted-printable
+2026-10-07T13:40:35 CMD MIME-Version: 1.0
+2026-10-07T13:40:35 CMD 
+2026-10-07T13:40:35 CMD This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+2026-10-07T13:40:35 CMD s.
+2026-10-07T13:40:35 CMD .
+2026-10-07T13:40:35 DELIVERED data/mailbox/email_20261007_134035_087416.eml sender=<alice@verimail.test> size=491 recipients=['<bob@verimail.test>']
+2026-10-07T13:40:35 CMD QUIT
+2026-10-07T13:40:35 DISCONNECT ('127.0.0.1', 60916)
+2026-10-08T13:47:13 SMTP LAB SERVER listening on 127.0.0.1:2525
+2026-10-08T13:47:27 CONNECT ('127.0.0.1', 49606)
+2026-10-08T13:47:27 CMD ehlo client.verimail.test
+2026-10-08T13:47:27 CMD mail from:<alice@verimail.test> size=489
+2026-10-08T13:47:27 CMD rcpt to:<bob@verimail.test>
+2026-10-08T13:47:27 CMD data
+2026-10-08T13:47:27 CMD From: alice@verimail.test
+2026-10-08T13:47:27 CMD To: bob@verimail.test
+2026-10-08T13:47:27 CMD Subject: VeriMailLab Security Test
+2026-10-08T13:47:27 CMD Date: Thu, 08 Oct 2026 13:47:27 -0400
+2026-10-08T13:47:27 CMD Message-ID: <179148164790.90344.5663624720046272209@verimail.test>
+2026-10-08T13:47:27 CMD X-Test-ID: 516a2d32-1c25-4ff5-b8fa-65b7ba91b29b
+2026-10-08T13:47:27 CMD X-Security-Project: Email Delivery Security Analysis
+2026-10-08T13:47:27 CMD Content-Type: text/plain; charset="utf-8"
+2026-10-08T13:47:27 CMD Content-Transfer-Encoding: quoted-printable
+2026-10-08T13:47:27 CMD MIME-Version: 1.0
+2026-10-08T13:47:27 CMD 
+2026-10-08T13:47:27 CMD This is a controlled test email for SMTP, DNS, Wireshark and security analysi=
+2026-10-08T13:47:27 CMD s.
+2026-10-08T13:47:27 CMD .
+2026-10-08T13:47:27 DELIVERED data/mailbox/email_20261008_134727_910447.eml sender=<alice@verimail.test> size=489 recipients=['<bob@verimail.test>']
+2026-10-08T13:47:27 CMD QUIT
+2026-10-08T13:47:27 DISCONNECT ('127.0.0.1', 49606)
+2026-10-08T14:01:54 SMTP LAB SERVER listening on 127.0.0.1:2525
+2026-10-08T14:03:50 SMTP LAB SERVER listening on 127.0.0.1:2525
